@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: #111827;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+}
+
+#home_score, #guest_score {
+    position: relative;
+    height: 70px;
+    width: 70px;
+    font-family: Courier New, Courier, monospace;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 0.5em;
+    color: red;
+    background-color: blue;
+
+}
+
+.container, .penalty_container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 3px;
+}
+
+.reset {
+    display: flex;
+    margin: 20px auto;
+    
+}
